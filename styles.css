@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(186, 175, 160);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Typewriter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    order: 3;
+    position: relative;
+}
+
+#topBanner {
+    background-image: url('images/vintagePaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#front-page-headline {
+position: absolute;
+top: 0;
+left: 0;
+max-width: 255px;
+order: 0;
+}
+
+.typewriter h1 {
+    font-family: 'Typewriter', sans-serif;
+    font-size: 32px;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: .05em;
+    width: 0;
+    animation: 
+    typing 5s steps(50, end) forwards,
+    blink-caret .75s step-end infinite;
+}
+
+#protest-photo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(39, 39, 32);
+    order: 1;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    order: 2;
+    margin-top: 10px;
+    border-bottom-style: double;
+    border-bottom-color: darkgreen;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+
+
+main {
+    order: 4;
+}
+
+footer {
+    order: 5;
+}
+
+@font-face {
+    font-family: 'Typewriter';
+    font-style: normal;
+    font-weight: 10px;
+    font-display: swap;
+    src: url(Fonts/SpecialElite-Regular.ttf);
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100%;}
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% {border-color: black; }
+}
+
+#pg2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#pg3 {
+    color: rgb(237, 235, 224);
+    background-image: url('images/uab.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
