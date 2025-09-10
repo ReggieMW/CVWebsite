@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-row {
+            display: flex;
+            justify-content: space-between;
+            /* Adds space between images */
+            gap: 10px;
+            /* Adjusts the spacing between images */
+        }
+
+        .image-row img {
+            width: 250px;
+            /* Adjust the size of the images */
+            height: auto;
+            /* Maintains aspect ratio */
+        }
+    </style>
+    <title>Projects</title>
+</head>
+
+<body>
+    <h1>TBRApp</h1>
+    <p>TBR (To Be Read) is a multiplatform application for tracking a users reading. Using CRUD functionality, the user
+        can create lists
+        of books they want to read, are currently reading, have read, etc. The long term goal is to implement a social
+        web and
+        recommendation engine using selective data to recognize that every user has a unique set of tastes.
+    </p>
+    <div class="image-row">
+        <img src="images\ListPageSS.jpg" alt="TBR List oof books screenshot" id="ListPageSS" width="500px"
+            height="700px" />
+        <img src="images\BookPageSS.jpg" alt="Individual Book Page screenshot" id="BookPageSS" width="500px"
+            height="700px" />
+        <img src="images\AddBookPageSS.jpg" alt="Top of Add Book page" id="AddBookPageSS" width="500px"
+            height="700px" />
+        <img src="images/AddBokPage2SS.jpg" alt="Bottom of add book page" id="AddBookPage2SS" width="500px"
+            height="700px" />
+    </div>
+    <h2>Technologies Used</h2>
+    <ul>
+        <li>Frontend: JavaScript, XAML, CSS</li>
+        <li>Backend: MAUI, C#</li>
+        <li>Database: SQLLite, Dapper</li>
+        <li>APIs: Google Books API</li>
+        <li>Authentication: JSON</li>
